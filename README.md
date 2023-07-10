@@ -15,29 +15,29 @@ You'll be able to access the live version of this application soon.
 
 - Login
 
-![Login](prints\login.png)
+![Login](prints/login.png)
 
 - Home Page
 
-![Home Page](prints\homepage.png)
+![Home Page](prints/homepage.png)
 
 
 - Control Panel
 
-![Control Panel](prints\control-panel.png)
+![Control Panel](prints/control-panel.png)
 
 
 - Inserting
 
-![Inserting](prints\insert.png)
+![Inserting](prints/insert.png)
 
 - Editing
 
-![Editing](prints\editing.png)
+![Editing](prints/editing.png)
 
 - Viewing
 
-![View property](prints\view.png)
+![View property](prints/view.png)
 
 
 
