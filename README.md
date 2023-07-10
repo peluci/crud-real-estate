@@ -2,10 +2,6 @@
 
 A simple CRUD (Create, Read, Update, Delete) application for managing real estate properties.
 
-## Live Access - Coming Soon
-
-You'll be able to access the live version of this application soon.
-
 ## Functionality
 
 - Create, Read, Update, and Delete property records.
