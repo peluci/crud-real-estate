@@ -1,0 +1,546 @@
+/* CSS HEX */
+:root {
+    --dark-pastel-green: #02BD54ff;
+    --emerald: #32C773ff;
+    --emerald-2: #61D192ff;
+    --celadon: #91DCB2ff;
+    --tea-green: #C0E6D1ff;
+    --antiflash-white: #F0F0F0ff;
+    --gray: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--antiflash-white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    background-color: var(--tea-green);
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+td,
+th {
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    padding: 10px;
+    /* background-color: var(--antiflash-white); */
+}
+
+input {
+    /* text-transform: capitalize; */
+    padding: 10px;
+    border: solid 1px black;
+    font-family: Montserrat, sans-serif;
+}
+
+a:link {
+    color: var(--antiflash-white);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--celadon);
+}
+
+button {
+    background-color: var(--emerald);
+    color: var(--antiflash-white);
+    padding: 10px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background-color: var(--tea-green);
+    color: var(--dark-pastel-green);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    max-height: 10vh;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.header .logo img {
+    width: 55px;
+}
+
+.header .logo p {
+    font-size: 30px;
+    margin-left: 15px;
+    color: var(--dark-pastel-green);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header .logo {
+    text-decoration: none;
+}
+
+.header nav {
+    font-size: 20px;
+    color: var(--emerald);
+
+}
+
+.header nav a:link,
+a:visited {
+    color: var(--emerald);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header nav a:hover {
+    color: var(--celadon);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--emerald);
+    color: var(--antiflash-white);
+    padding: 10px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: var(--tea-green);
+    color: var(--dark-pastel-green);
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    background-color: var(--dark-pastel-green);
+    color: var(--antiflash-white);
+    padding: 10px;
+    max-height: 5vh;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: var(--antiflash-white);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.card {
+    background-color: var(--gray);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    /* height: 300px; */
+    box-shadow: rgba(149, 157, 165, 0.6) 0px 4px 4px;
+}
+
+td.card-pequeno {
+    border: none;
+    background-color: inherit;
+
+}
+
+.card img {
+    /* height: 250px; */
+    object-fit: cover;
+    width: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.card .dados {
+    width: 250px;
+    /* margin: 10px; */
+}
+
+.card button {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: var(--antiflash-white);
+    box-shadow: rgba(149, 157, 165, 0.6) 0px 16px 36px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--dark-pastel-green);
+}
+
+.card button:hover {
+    background-color: var(--emerald);
+    color: var(--antiflash-white);
+
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--celadon);
+    height: 96vh;
+}
+
+.login .card {
+    align-items: center;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+}
+
+.login .card img {
+    width: 70px;
+    object-fit: cover;
+}
+
+.login .card p,
+input {
+    color: black;
+    font-size: 18px;
+}
+
+.login .card .dados {
+    align-items: start;
+}
+
+.login .card .dados .entrada {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login .card .dados input {
+    border: none;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    background-color: var(--antiflash-white);
+}
+
+.login .card .dados input::placeholder {
+    color: var(--emerald);
+}
+
+.login .card button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: var(--antiflash-white);
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--dark-pastel-green);
+}
+
+.login .card button:hover {
+    background-color: var(--emerald);
+    color: var(--antiflash-white);
+
+}
+
+.boas-vindas {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--gray);
+    width: 60%;
+    margin: 20px;
+}
+
+.boas-vindas img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    margin-right: 50px;
+    /* padding: 20px; */
+}
+
+.boas-vindas p {
+    width: 400px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.tela-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--tea-green);
+}
+
+
+
+.celula {
+    margin: 10px;
+}
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+.info-msg {
+    color: #059;
+    background-color: #BEF;
+}
+
+.warning-msg {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.error-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+
+.sucesso-msg,
+.erro-msg {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    align-items: center;
+    text-align: center;
+}
+
+.sucesso-msg {
+    color: #270;
+    background-color: #DFF2BF;
+}
+
+.erro-msg {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+
+}
+
+.card-horizontal img {
+    margin: 20px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-horizontal .dados p {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--gray);
+    width: 60%;
+    margin: 20px;
+}
+
+.banner img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 50px;
+    /* border-radius: 100px; */
+    /* padding: 20px; */
+}
+
+.banner p {
+    width: 400px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.busca-imovel {
+    width: 60%;
+    margin: 20px;
+}
+
+.busca-imovel input {
+    width: 100%;
+    border: 3px solid var(--emerald);
+    border-radius: 0%;
+}
+
+.cards-pequenos {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--gray);
+    margin: 10px;
+}
+
+.cards-pequenos table {
+    background-color: inherit;
+    padding: inherit;
+    border-radius: inherit;
+    align-items: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-pequenos td,
+.cards-pequenos th {
+    /* margin: 10px ; */
+    text-transform: inherit;
+
+}
+
+.cards-pequenos .card {
+    height: 400px;
+    width: 300px;
+    background-color: var(--antiflash-white);
+    margin: inherit;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: solid 3px var(--emerald); */
+    /* box-shadow: inherit; */
+}
+
+.cards-pequenos .button{
+    width: 200px;
+}
+
+.cards-pequenos .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.cards-pequenos .card .dados {
+    width: 100%;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contato .busca-imovel input{
+    margin-top: 10px;
+}
+
+.gerenciamento{
+    margin: 10px;
+}
+
+.gerenciamento a{
+    margin: 10px;
+}
+
+.tabela-gerenciar{
+    margin: 10px;
+}
+
+.imovel{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: var(--gray);
+    width: 60%;
+    /* height: 100vh; */
+    margin: 20px;
+}
+
+.imovel img {
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    margin-left: 50px;
+    /* border-radius: 100px; */
+    /* padding: 20px; */
+}
+
+.imovel p {
+    text-transform: capitalize;
+    text-align: left;
+    margin: 10px;
+    width: 400px;
+    font-size: 20px;
+
+}
+.dados input{
+    align-self: flex-end;
+}
+
+.campo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+.campo p {
+    width: 100%;
+}
