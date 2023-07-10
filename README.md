@@ -9,7 +9,6 @@ You'll be able to access the live version of this application soon.
 ## Functionality
 
 - Create, Read, Update, and Delete property records.
-- Fields: property type, location, price.
 
 ## Screens
 
@@ -58,6 +57,8 @@ You'll be able to access the live version of this application soon.
 4. Start a local PHP server.
 
 5. Access the application in your browser at `localhost/folder`.
+
+6. The default login user is "usuario" and the password is "1234"
 
 ## License
 
