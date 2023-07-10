@@ -11,6 +11,36 @@ You'll be able to access the live version of this application soon.
 - Create, Read, Update, and Delete property records.
 - Fields: property type, location, price.
 
+## Screens
+
+- Login
+
+![Login](prints\login.png)
+
+- Home Page
+
+![Home Page](prints\homepage.png)
+
+
+- Control Panel
+
+![Control Panel](prints\control-panel.png)
+
+
+- Inserting
+
+![Inserting](prints\insert.png)
+
+- Editing
+
+![Editing](prints\editing.png)
+
+- Viewing
+
+![View property](prints\view.png)
+
+
+
 ## Technologies Used
 
 - Frontend: HTML, CSS
