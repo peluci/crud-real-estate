@@ -1,7 +1,4 @@
 <?php
-
-include '../backend/config.php';
-
 // Printing functions
 function imprimeTabela($conn, $query)
 {
@@ -174,7 +171,7 @@ function imprimirTelaCadastro($conn, $tabela)
     echo "</div>";
 }
 
-function adicionarCadastro($conn, $tabela)
+function adicionarCadastro($conn, $tabela) //DEPRECIADO
 {
     $query = "SELECT * FROM $tabela";
     $result = mysqli_query($conn, $query);
@@ -332,6 +329,20 @@ function verificarUsuario($conn, $usuario, $senha)
               </div>";
         }
     }
+}
+
+function display_success_message() {
+    echo "<div class='sucesso-msg'>
+        <i class='fa fa-check></i>
+        <p>Cadastro bem sucedido.</p>
+    </div>";
+}
+
+function display_error_message() {
+    echo "<div class='erro-msg'>
+        <i class='fa fa-times></i>
+        <p>Ocorreu um erro ao cadastrar o imóvel.</p>
+    </div>";
 }
 
 ?>
